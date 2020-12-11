@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body{
+    background: #4e54c8; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4e54c8, #8f94fb); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4e54c8, #8f94fb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    font-family: "Poppins";
+    min-height: 100vh;
+}
+
+.greeting{
+    font-weight: 500;
+    font-size: 4em;
+    margin-bottom: 30px;
+}
+
+
+#start-btn
+{
+    border-radius: 0.001px;
+    outline: none;
+    border: none;
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    background: white;
+    color: #4e54c8;
+    
+} 
+#camera
+{
+    width:360px;
+    height: 250px;
+    border:1px solid grey;
+}
+#logo_img
+{
+    width: 150px;
+    border-radius: 100px;
+}
+#textbox
+{
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 0.0001px;
+    width: 300px;
+    height: 100px;
+}
+
+#camera{
+    background: white;
+}
